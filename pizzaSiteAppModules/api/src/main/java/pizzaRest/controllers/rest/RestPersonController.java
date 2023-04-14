@@ -33,6 +33,7 @@ import java.util.stream.Collectors;
  */
 
 @RestController
+//@RequestMapping("/users")
 @RequestMapping("/api/users")
 public class RestPersonController {
 

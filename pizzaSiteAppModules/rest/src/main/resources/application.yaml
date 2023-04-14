@@ -4,6 +4,9 @@ server:
 
 zuul:
   routes:
-    order:
+    api:
       path: /api/**
-      url: http://localhost:8090
+      url: http://localhost:8090/api
+    web:
+      path: /**
+      url: http://localhost:8083/
